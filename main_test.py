@@ -7,8 +7,8 @@ import re
 def test_main_100_20():
     captureOut = io.StringIO()
     sys.stdout = captureOut
-    datastr = '100 \n 20'
-    sys.stdin = io.StringIO(datastr)
+    # datastr = '100 \n 20'
+    # sys.stdin = io.StringIO(datastr)
 
     
     sys.stdout = sys.__stdout__
