@@ -10,6 +10,7 @@ def test_main_100_20():
     # datastr = '100 \n 20'
     # sys.stdin = io.StringIO(datastr)
 
+    main.main()
     
     sys.stdout = sys.__stdout__
     print('Captured\n', captureOut.getvalue())
