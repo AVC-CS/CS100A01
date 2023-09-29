@@ -18,6 +18,8 @@ def test_main_100_20():
     print(lines)
     
     p = re.compile('[\w,\W]*[H,h]ello[\w,\W]*[w, W]orld[\w,\W]*')
+    # searchstr = r'[\w,\W]*[H,h]ello[\w,\W]*[w, W]orld[\w,\W]*'
+    # res = re.search(searchstr, lines[0])
     res = p.match(lines[0])
     print(res.group())
     res = re.search('100', lines[0])
